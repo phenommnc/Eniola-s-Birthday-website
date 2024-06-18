@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div class="body">
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Dear Eniola,</strong>
+                            <p>
+                                Happy birthday my love, we've really come a long way haven't we.
+                                I know you must have been worried that I had not wished you, maybe
+                                you thought that I have forgotten, well I was busy making this little 
+                                gift for you, took me quite some hours, my code is so messy but the time it took,
+                                staying up all night to plan this and then finally creating it is something
+                                I wouldn't trade for the world. You deserve more than this, you deserve the
+                                world but till I give you, you have to make due with this.Lovingly from your #1❤️❤️.
+                         
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+        <a href="index2.html"><button class="click-me">Click Me</button></a>
+        <script>
+            const envelope = document.querySelector('.envelope-wrapper');
+            envelope.addEventListener('click', () => {
+                envelope.classList.toggle('flap');
+            });
+        </script>
+    </div>
+</body>
+</html>
